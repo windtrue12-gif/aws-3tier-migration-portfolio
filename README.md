@@ -1,34 +1,38 @@
 # aws-3tier-migration-portfolio
 
-📘 AWS 3-Tier Web Application Migration (Portfolio Project)
-This repository contains a fully-documented AWS 3-tier infrastructure build, including:
+🟦 Project Overview
 
-✔ Architecture Diagram
-✔ Infrastructure Design Document (EN/JP)
-✔ Build Procedure (EN/JP)
-✔ Test Result Report (EN/JP)
-✔ Cost Estimation (EN/JP)
-✔ Security Configuration (EN/JP)
+This repository showcases a fully documented AWS 3-tier web application migration project.
+It simulates moving a small/medium-sized company’s on-premises system to AWS using best practices for scalability, availability, and security.
 
-This project simulates a small/medium-sized company migrating an on-premises web system to AWS using:
+🟦 Included Documents
+Architecture Diagram
+Infrastructure Design Document (EN/JP)
+Build Procedure (EN/JP)
+Verification Evidence (screenshots with masking)
+Test Result Report (EN/JP)
+Cost Estimation (EN/JP)
+Security Configuration (EN/JP)
+Improvement Proposal
 
-- ALB
-- EC2 (nginx + PHP-FPM)
-- RDS (MySQL Multi-AZ)
-- S3
-- CloudWatch / SNS
-- Route53
-- IAM
-- VPC with Public / Private / DB subnets
+🟦 Architecture Components
+The migrated AWS architecture consists of:
+ALB (Application Load Balancer)
+EC2 (nginx + PHP-FPM)
+RDS (MySQL Multi-AZ)
+S3 (static assets + backup)
+CloudWatch / SNS (monitoring & alerts)
+Route53 (DNS)
+IAM
+VPC with Public / Private / DB subnets
 
-All sensitive information (account IDs, ARNs, endpoint names, IP addresses, credentials)
+🟦 Tech Stack
+AWS: EC2, RDS(MySQL), S3, NAT Gateway, Route53, ALB, CloudWatch, SNS
+OS: Amazon Linux 2
+Middleware: Nginx, PHP-FPM
+DB: MySQL 8.0
+Other: Shell scripts, basic network configuration
+
+🟦 Security Note
+All sensitive information (AWS account IDs, ARNs, endpoint names, IP addresses, credentials)
 has been fully masked or replaced with sample values.
-
-This repository is intended as a portfolio project to demonstrate AWS architecture skills.
-
-## Tech Stack
-- AWS: EC2, RDS(MySQL), S3, NAT GW, Route53, ALB, CloudWatch, SNS
-- OS: Amazon Linux 2
-- Middleware: Nginx, PHP-FPM
-- DB: MySQL 8.0
-- Language: PHP(Laravel), shell
