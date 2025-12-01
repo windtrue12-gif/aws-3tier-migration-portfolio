@@ -1,7 +1,6 @@
 # aws-3tier-migration-portfolio
 
 📘 AWS 3-Tier Web Application Migration (Portfolio Project)
-
 This repository contains a fully-documented AWS 3-tier infrastructure build, including:
 
 ✔ Architecture Diagram
@@ -33,3 +32,10 @@ All sensitive information (account IDs, ARNs, endpoint names, IP addresses, cred
 has been fully masked or replaced with sample values.
 
 This repository is intended as a portfolio project to demonstrate AWS architecture skills.
+
+## Tech Stack
+- AWS: EC2, RDS(MySQL), S3, NAT GW, Route53, ALB, CloudWatch, SNS
+- OS: Amazon Linux 2
+- Middleware: Nginx, PHP-FPM
+- DB: MySQL 8.0
+- Language: PHP(Laravel), shell
